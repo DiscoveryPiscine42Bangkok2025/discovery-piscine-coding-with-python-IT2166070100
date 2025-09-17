@@ -1,1 +1,2 @@
-print("[" + " ".join(str(i) for i in [2, 8, 9, 48, 8, 22, -12, 2]) + "]")
+numbers = [2, 8, 9, 48, 8, 22, -12, 2]
+print(numbers)
