@@ -1,6 +1,6 @@
 def greetings(text=None):
     if text is None:
-        print("noble stranger")
+        print("Hello, noble stranger")
     elif type(text) != str:
         print("Error! It was not a name")
     else:
