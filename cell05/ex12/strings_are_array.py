@@ -1,2 +1,12 @@
 import sys
-print("z" * sys.argv[1].count("z") if sys.argv[1].count("z") > 0 and len(sys.argv) == 2 else "none")
+
+if len(sys.argv) != 2:
+    print("none")
+else:
+    text = sys.argv[1]
+    count = text.count("z")
+
+    if count > 0:
+        print("z" * count)
+    else:
+        print("none")
